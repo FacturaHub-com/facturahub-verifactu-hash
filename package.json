@@ -1,0 +1,23 @@
+{
+  "name": "@facturahub/verifactu-hash",
+  "version": "0.1.0",
+  "description": "Huella (hash SHA-256 encadenado) de registros Veri*Factu según la especificación oficial de la AEAT. Isomorfo, sin dependencias.",
+  "keywords": ["verifactu", "veri*factu", "huella", "hash", "sha256", "aeat", "españa", "spain", "facturacion", "encadenamiento"],
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": { ".": { "types": "./dist/index.d.ts", "import": "./dist/index.js", "require": "./dist/index.cjs" } },
+  "files": ["dist"],
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts --clean",
+    "test": "vitest run",
+    "prepublishOnly": "npm run build"
+  },
+  "license": "MIT",
+  "author": "FacturaHub",
+  "homepage": "https://facturahub.com?utm_source=npm&utm_medium=referral&utm_campaign=verifactu-hash",
+  "repository": { "type": "git", "url": "git+https://github.com/FacturaHub-com/facturahub-verifactu-hash.git" },
+  "devDependencies": { "tsup": "^8.0.0", "typescript": "^5.4.0", "vitest": "^1.6.0" }
+}
