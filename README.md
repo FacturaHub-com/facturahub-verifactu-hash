@@ -1,5 +1,7 @@
 # @facturahub/verifactu-hash
 
+**Parte del ecosistema [FacturaHub](https://facturahub.com?utm_source=github&utm_medium=referral&utm_campaign=verifactu-hash)** — facturación en España, **Verifactu**, **IVA**, **Modelo 303** y automatización fiscal con IA.
+
 > Calcula la **huella (hash SHA-256 encadenado)** de los registros Veri*Factu según la especificación oficial de la AEAT. Isomorfo (Node 18+ / navegador) · 0 dependencias · MIT.
 
 ## Instalación
@@ -51,3 +53,13 @@ y se aplica SHA-256 (UTF-8) → hexadecimal en mayúsculas (64 caracteres). Base
 ---
 
 Hecho por [**FacturaHub**](https://facturahub.com?utm_source=npm&utm_medium=referral&utm_campaign=verifactu-hash) — facturación con IA para autónomos en España: emite **Verifactu** sin pelearte con la norma. Gratis. Guía: [github.com/FacturaHub-com/facturahub-verifactu](https://github.com/FacturaHub-com/facturahub-verifactu).
+
+## Ecosistema FacturaHub
+- 🌐 [FacturaHub](https://facturahub.com?utm_source=github&utm_medium=referral&utm_campaign=verifactu-hash) — la app (gratis, Verifactu incluido)
+- 🔌 [facturahub-api](https://github.com/FacturaHub-com/facturahub-api) — API REST + OpenAPI 3.1
+- 🤖 [facturahub-mcp](https://github.com/FacturaHub-com/facturahub-mcp) — servidor MCP (Claude, Cursor, ChatGPT)
+- 🧾 [facturahub-verifactu](https://github.com/FacturaHub-com/facturahub-verifactu) — Verifactu por API
+- 🧮 Librerías: nif-validator · iva · iban-es · factura-number · verifactu-qr · verifactu-hash · modelo-303
+- ⚙️ Automatización: facturahub-n8n · n8n-nodes-facturahub · facturahub-woocommerce · facturahub-shopify
+
+Temas: Verifactu · Facturación electrónica · IVA · Modelo 303 · AEAT · NIF/CIF · Autónomos · MCP · IA · España
