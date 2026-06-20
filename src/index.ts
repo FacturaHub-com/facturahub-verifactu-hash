@@ -1,4 +1,4 @@
-// @facturahub/verifactu-hash — Huella (hash SHA-256 encadenado) de registros Veri*Factu.
+// facturahub-verifactu-hash — Huella (hash SHA-256 encadenado) de registros Veri*Factu.
 // Implementa el cálculo oficial de la AEAT (Orden HAC/1177/2024). Isomorfo (Node 18+ / navegador)
 // vía Web Crypto. 0 dependencias.
 

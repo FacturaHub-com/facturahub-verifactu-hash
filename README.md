@@ -1,4 +1,4 @@
-# @facturahub/verifactu-hash
+# facturahub-verifactu-hash
 
 **Parte del ecosistema [FacturaHub](https://facturahub.com?utm_source=github&utm_medium=referral&utm_campaign=verifactu-hash)** — facturación en España, **Verifactu**, **IVA**, **Modelo 303** y automatización fiscal con IA.
 
@@ -7,13 +7,13 @@
 ## Instalación
 
 ```bash
-npm i @facturahub/verifactu-hash
+npm i facturahub-verifactu-hash
 ```
 
 ## Uso
 
 ```ts
-import { huellaAlta, cadenaAlta } from '@facturahub/verifactu-hash';
+import { huellaAlta, cadenaAlta } from 'facturahub-verifactu-hash';
 
 const huella = await huellaAlta({
   idEmisor: '89890001K',

@@ -1,5 +1,5 @@
 {
-  "name": "@facturahub/verifactu-hash",
+  "name": "facturahub-verifactu-hash",
   "version": "0.1.0",
   "description": "Huella (hash SHA-256 encadenado) de registros Veri*Factu según la especificación oficial de la AEAT. Isomorfo, sin dependencias.",
   "keywords": ["verifactu", "veri*factu", "huella", "hash", "sha256", "aeat", "españa", "spain", "facturacion", "encadenamiento"],
